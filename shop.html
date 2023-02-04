@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://kit.fontawesome.com/fa0da1f273.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;1,900&family=Lexend&family=Lexend+Deca&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Lato:ital,wght@0,400;1,900&family=Lexend&family=Lexend+Deca&display=swap" rel="stylesheet">
+<title>Repair Order | Windpointe Woodworks</title>
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light text-light fixed-top">
+    <div class="container-row col-3 col-sm-2">
+        <a href="index.html" class="navbar-brand">
+            <img class="img-fluid" src="static/Windpointe@0.5x.png"  alt="">
+        </a>
+    </div>
+    <div class="collapse navbar-collapse text-center justify-content-end rounded-3" id="navmenu">
+        <div class="btn-group">
+            <button  type="button" class="btn btn-primary shadow-lg"><a href="shop.html" class="text-warning" style="text-decoration: none;">Shop</a></button>
+            <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu bg-primary">
+              <li><a class="dropdown-item text-warning" href="shop.html">Torrified Bridges</a></li>
+              <!-- <li><a class="dropdown-item text-warning" href="#">Custom</a></li> -->
+              <li><hr class="dropdown-divider bg-warning"></li>
+            </ul>
+        </div>
+        <div class="btn-group px-sm-5">
+            <button  type="button" class="btn btn-primary shadow-lg"><a href="repair.html" class="text-warning" style="text-decoration: none;">Start an R.O.</a></button>
+            <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu bg-primary">
+              <li><a class="dropdown-item text-warning" href="repair.html">What's an RO?</a></li>
+              <li><hr class="dropdown-divider bg-warning"></li>
+            </ul>
+        </div>
+    </div>
+    <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<!-- Pre-Panel -->
+
+<section class="bg-img mt-5 pt-3 p-sm-5" style="background-image: url(static/bowtie-frets.jpg); background-size: 100vw; background-repeat: no-repeat;">
+    <div class="bg-dark bg-opacity-75 text-light m-sm-5 shadow-lg" style="border-radius: 10px;">
+        <h1 class="text-center text-warning" >Torrified Bridges<strong><hr></strong></h1>
+        <h1 class="text-light text-center text-sm-center p-3 p-sm-5">No these bridges aren't scared</h1>
+    </div>
+</section>
+
+<!-- Panel One -->
+
+<section>
+    <div class="row container-row justify-content-center align-items-center" >
+        <div class="col-12 col-sm-6">
+            <h4 class="text-warning p-3 pt-sm-5">What in the world is torrefaction?</h4>
+            <p class="p-3 p-sm-5">Torrefaction is the proccess of seasoning wood in a high heat, low-to-no oxygen environment... but why? Well there are a few reasons: 
+                the proccess crystalizes the naturally occuring sugars in the wood, making it lighter and changing it's sonic properties while retaining compression strengh.<br><br>
+            All bridges are handmade (no C&C machines here) and inspected before they're sent out. We do not send out bridges that are duds.. Not every one is gonna be a winner,
+            but everyone that is shipped is. </p>
+        </div>
+        <div class="col-sm">
+            <div class=" m-sm-5">
+                <form class="shadow-lg p-3">
+                    <div class="">
+                      <label for="name" class="form-label">Name</label>
+                      <input class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="contact" class="form-label">Preferred method of contact</label>
+                      <input type="text" class="form-control" placeholder="(XXX) XXX-XXXX or X@X.COM">
+                    </div>
+                    <div class="mb-3">
+                        <label for="instrument">Shipping address</label>
+                        <input type="text" class="form-control" placeholder="123 The Moon">
+                    </div>
+                    <div class="mb-3">
+                        <label for="instrument">Reqested specs.</label>
+                        <input type="text" class="form-control" placeholder="Height = 5/8 Spacing = Crowe Radius = no-radius">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Request rush service</label>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Place Order</button>
+                    </div>
+                    
+                  </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer -->
+
+ 
+    <footer class="bg-dark mt-5 mb-0 text-light">
+        <p class="bg-dark text-center text-warning p-5 m-0"><br><br>2023 &copy Windpointe Woodworks<br><br> </p>
+    </footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
